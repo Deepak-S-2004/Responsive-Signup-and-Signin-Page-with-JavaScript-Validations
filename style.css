@@ -1,0 +1,90 @@
+.error {
+  margin-bottom: 0;
+}
+.phoneerror {
+  margin-bottom: 0;
+}
+.confirmpasserror {
+  margin-bottom: 0;
+}
+.passerror {
+  margin-bottom: 0;
+}
+.cityerror {
+  margin-bottom: 0;
+}
+.rounded-4 {
+    width: 450px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+
+    .rounded-4 {
+        width: 95%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .rounded-4 .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .rounded-4 .mt-5 {
+        margin-top: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .rounded-4 {
+        width: 550px;
+    }
+
+}
+@media (min-width: 1025px) {
+    .rounded-4 {
+        width: 450px;
+    }
+}
+.hero {
+  min-height: 75vh;
+  background-image:
+    linear-gradient(rgba(39, 38, 38, 0.5)),
+    url("images/photo-1500530855697-b586d89ba3ee.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+.about {
+  background-color: #f5f5f5;
+}
+#contact {
+  background-color: #ffffff;
+}
+@media (max-width: 768px) {
+  .hero {
+    min-height: 65vh;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+}
